@@ -15,3 +15,4 @@ vdj_eval.csv contains an evaluation set derived from VDJdb. Also here, the posit
 To investigate performance inflation due to a similarity overlap between training and evaluation sets, a second evaluation was performed where TCRs from the evaluation data that had a kernel similarity value25 above 0.9 to the training TCRs were removed.
 
 
+[NetTCR-2.1](https://www.nature.com/articles/s42003-021-02610-3) uses convolutional neural networks to predict the binding of a TCR and a peptide-MHC complex. In the current work, the inputs to the model are the CDR3 α and β amino acid sequences. For each of the peptides present in the data set, a model is trained on the TCR data specific to that epitope. These models are subsequently used to obtain predictions over an external evaluation set.
