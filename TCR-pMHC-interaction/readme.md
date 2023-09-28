@@ -1,6 +1,10 @@
 
 ###  Description 
 
+The data were downloaded from https://services.healthtech.dtu.dk/suppl/immunology/ITRAP_benchmark/
+described in this paper [Benchmarking data-driven filtering for denoising of TCRpMHC single-cell data](https://www.nature.com/articles/s41598-023-43048-3#data-availability)
+
+
 This directory contains raw data and data filtered at 3 levels:
 
 - raw: GEMs containing both TCR and pMHC reads. TCR CDR3 sequences must be IUPAC encoded.
