@@ -16,3 +16,5 @@ To investigate performance inflation due to a similarity overlap between trainin
 
 
 [NetTCR-2.1](https://www.nature.com/articles/s42003-021-02610-3) uses convolutional neural networks to predict the binding of a TCR and a peptide-MHC complex. In the current work, the inputs to the model are the CDR3 α and β amino acid sequences. For each of the peptides present in the data set, a model is trained on the TCR data specific to that epitope. These models are subsequently used to obtain predictions over an external evaluation set.
+
+NetTCR is a sequence-based 1D-convolutional neural network. read https://www.frontiersin.org/articles/10.3389/fimmu.2022.1055151/full
